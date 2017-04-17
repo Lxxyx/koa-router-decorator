@@ -1,0 +1,37 @@
+{
+  "name": "koa-router-decorator",
+  "version": "1.0.0",
+  "description": "Use decorator for koa-router",
+  "main": "dist/src/index.js",
+  "dependencies": {
+    "koa-router": "^7.1.1"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.39",
+    "@types/koa-router": "^7.0.22",
+    "@types/supertest": "^2.0.0",
+    "@types/supertest-as-promised": "^2.0.34",
+    "ava": "^0.19.1",
+    "koa": "^2.2.0",
+    "supertest": "^3.0.0",
+    "supertest-as-promised": "^4.0.2"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lxxyx/koa-router-decorator.git"
+  },
+  "keywords": [
+    "koa",
+    "koa-router",
+    "decorator"
+  ],
+  "author": "Lxxyx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lxxyx/koa-router-decorator/issues"
+  },
+  "homepage": "https://github.com/Lxxyx/koa-router-decorator#readme"
+}
