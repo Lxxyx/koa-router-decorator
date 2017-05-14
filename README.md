@@ -1,14 +1,22 @@
-# koa-router-decorator
-use decorator width koa-router
+![build status](https://travis-ci.org/Lxxyx/koa-router-decorator.svg?branch=master)
 
-## usage
+# Intro
+Use decorator for koa.
+
+Support typescript with experimentalDecorators, but not test on javascript.
+
+## Usage
+
+First, in your `tsconfig.json`, set `experimentalDecorators` to `true`.
+
 ```js
 import Route from 'koa-router-decorator'
+import Koa from 'koa'
 
 @Route.init()
 class TestRoute {
   @Route.get('/')
-  async index(ctx: Koa.Context) {
+  async index (ctx: Koa.Context) {
     const result = await Promise.resolve(1)
     ctx.body = result
   }
