@@ -1,6 +1,6 @@
 {
   "name": "koa-router-decorator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use decorator for koa-router",
   "main": "dist/src/index.js",
   "dependencies": {
